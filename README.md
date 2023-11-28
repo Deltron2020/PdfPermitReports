@@ -23,7 +23,7 @@
   - <b>Step 4:</b> A scheduled task runs twice a month that executes a WinSCP FTP script to ftp the PDF files to the PAO website where they can be accessed, viewed, and even downloaded by the public.
 
 <p align="center">
-<img src="https://i.imgur.com/jaZSV2w.png" height="95%" width="95%" alt="Permit Report Process Flowchart"/>
+<img src="https://i.imgur.com/jaZSV2w.png" height="85%" width="85%" alt="Permit Report Process Flowchart"/>
 </p>
 
 I am always looking for ways to improve this process. Currently, the Python script generates and downloads 85,000+ pdf report files in just under 75 hours. Then because I can't unzip folders on the FTP site the pdf files are individually FTP'd taking another 25 hours. This results in the entire process taking about 100 hours from the creation of the first report to the last report being made available on the PAO website.
