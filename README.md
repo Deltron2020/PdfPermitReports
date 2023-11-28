@@ -26,7 +26,7 @@
 <img src="https://i.imgur.com/jaZSV2w.png" height="95%" width="95%" alt="Permit Report Process Flowchart"/>
 </p>
 
-I am always looking for ways to improve this process. Currently, the Python script generates and downloads 85,000+ pdf report files in just under 75 hours. Then becuase I can't unzip folders on the FTP site the pdf files are individually FTP'd taking another 25 hours. This results in the entire process taking about 100 hours from the creation of the first report to the last report being made available on the PAO website.
+I am always looking for ways to improve this process. Currently, the Python script generates and downloads 85,000+ pdf report files in just under 75 hours. Then because I can't unzip folders on the FTP site the pdf files are individually FTP'd taking another 25 hours. This results in the entire process taking about 100 hours from the creation of the first report to the last report being made available on the PAO website.
 
 <h2>Screenshots</h2>
 *** For the sake of security, any email addresses, network paths, and anything deemed potentially sensitive will be removed from production code & screenshots *** .
