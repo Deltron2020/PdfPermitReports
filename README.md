@@ -28,12 +28,23 @@
 
 I am always looking for ways to improve this process. Currently, the Python script generates and downloads 85,000+ pdf report files in just under 75 hours. Then because I can't unzip folders on the FTP site the pdf files are individually FTP'd taking another 25 hours. This results in the entire process taking about 100 hours from the creation of the first report to the last report being made available on the PAO website.
 
-<h2>Screenshots</h2>
-*** For the sake of security, any email addresses, network paths, and anything deemed potentially sensitive will be removed from production code & screenshots *** .
-<br />
+Here's a live look at one of the pdf permit reports on the website: [https://mcpaofiles.com/permits/7.pdf](https://mcpaofiles.com/permits/7.pdf)
 
-<h3>Original Excel File from Clerk of Court</h3>
-<p align="center">
-<img src="https://i.imgur.com/Loycsjm.png" height="95%" width="95%" alt="CoC CoA Excel File"/>
-</p>
+<h2>The Good Stuff</h2>
+
+The following items are present in the python code involved:
+
+- Selenium
+- Logging
+- Try-Except Error Handling
+- If / Else Logic
+- While Loop
+
+The following items are present in the SQL stored procedure involved:
+
+- #Temp Tables
+- Indexing
+
+Links to SQL scripts involved in this process:
+- [Export Data to CSV](https://github.com/Deltron2020/ExportDataToCsv)
 
